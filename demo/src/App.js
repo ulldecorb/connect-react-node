@@ -6,17 +6,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>We can connect react to server...</p>
+  
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://es.acervolima.com/como-conectar-nodejs-con-reactjs/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Go to tutorial
         </a>
+        <form action="../../post" method="post" 
+              className="form">
+          <button type="submit">Connected?</button>
+        </form>
       </header>
     </div>
   );
